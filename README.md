@@ -10,6 +10,8 @@ Library uses knex connection for non administrative queries, but also creates
 priviliged connection directly with driver with superuser privileges for creating
 and dropping databases / roles.
 
+> ⚠️ This package is a fork of `knex-db-manager` and compatible with knex >1
+
 ## Supported Databases
 
 - PostgreSQL
@@ -19,6 +21,8 @@ and dropping databases / roles.
 - ~~MSSQL (TBD if we can get integration tests to run automatically)~~
 
 ## Install
+
+> ⚠️ This package is installable under `knex-db-manager-continued`.
 
 You need to install `knex`, database driver and `knex-db-manager`
 
